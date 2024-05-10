@@ -1,0 +1,20 @@
+# Use an official NGINX image as a parent image
+FROM nginx:latest
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Remove default NGINX configurations
+RUN rm -f /etc/nginx/conf.d/*
+
+# Copy the nginx configuration file
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+# Copy the built React files to the working directory
+COPY build/ .
+
+# Expose port 80
+EXPOSE 80
+
+# Command to start NGINX
+CMD ["nginx", "-g", "daemon off;"]
