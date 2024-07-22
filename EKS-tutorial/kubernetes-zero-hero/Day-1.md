@@ -90,3 +90,6 @@ After a few mins, run the below command to verify the cluster installation.
 ```
 kops validate cluster demok8scluster.k8s.local
 ```
+
+### Test Kops on AWS
+[kops installation on AWS](https://aws.amazon.com/tutorials/run-kops-kubernetes-clusters-for-less-with-amazon-ec2-spot-instances/)
