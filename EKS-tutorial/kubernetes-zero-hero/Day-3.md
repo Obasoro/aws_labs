@@ -10,9 +10,11 @@ sudo mv kops-linux-amd64 /usr/local/bin/kops
 
 ```
 ### store your cluster on S3
-```aws s3api create-bucket \
+```
+aws s3api create-bucket \
     --bucket spot-kops \
-    --region us-east-1```
+    --region us-east-1
+```
 
 
 ```
@@ -25,6 +27,7 @@ kops create cluster \
 --control-plane-size t2.micro \
 --control-plane-volume-size 8 \
 --node-volume-size 8
+
 ```
 
 ### Error
