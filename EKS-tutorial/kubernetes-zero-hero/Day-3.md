@@ -37,3 +37,8 @@ Error: State Store: Required value: Please set the --state flag or export KOPS_S
 For example, a valid value follows the format s3://<bucket>.
 You can find the supported stores in https://kops.sigs.k8s.io/state.
 ```
+
+### Setting up Route53
+```aws route53 create-hosted-zone --name gmic.com.ng --caller-reference 1```
+
+
