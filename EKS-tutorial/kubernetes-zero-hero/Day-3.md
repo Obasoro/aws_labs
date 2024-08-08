@@ -41,4 +41,36 @@ You can find the supported stores in https://kops.sigs.k8s.io/state.
 ### Setting up Route53
 ```aws route53 create-hosted-zone --name gmic.com.ng --caller-reference 1```
 
+### Creating 1st Pod
+
+``` kubectl create -f pod.yml ```
+
+```
+pod.yml
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+spec:
+  containers:
+  - name: nginx
+    image: nginx:1.12
+    ports:
+    - containerPort: 80
+```
+### Examine Pod
+```
+kubectl get po -A -owide
+
+kubectl describe po nginx
+
+minikube ssh
+
+curl <Ip_number>
+exit
+
+kubectl delete po nginx
+```
+
 
