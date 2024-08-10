@@ -100,3 +100,24 @@ Invoke a lambda function
 ### Running a local HTTP server that simulates API Gateway
 1
 2
+
+```
+If you prefer to run the workshop from your local computer without using Cloud9, make sure you install the following tools which are available for Linux, MacOS and Windows.
+
+Docker Desktop 
+Required to simulate the Lambda runtime locally.
+SAM CLI v1.72.0+ 
+To run functions locally, create a pipeline and package/deploy SAM apps manually.
+AWS CLI 
+To create resources in your AWS account.
+Git Client 
+To interact with the CodeCommit repository by pushing code changes.
+One of the three languages used to create a sample application
+Node.js and npm 
+Python 
+Java 11  and Maven 
+```
+
+### SAM ARchitecture
+[sam-architecture](![image](https://github.com/user-attachments/assets/774f767b-c00b-42c6-9df0-93b5086b225b)
+
