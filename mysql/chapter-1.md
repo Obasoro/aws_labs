@@ -43,3 +43,14 @@ constraint pk_fav_food_person_id foreign key (person_id)
 | person_id | smallint unsigned | NO   | PRI | NULL    |       |
 | food      | varchar(20)       | NO   | PRI | NULL    |       |
 +-----------+-------------------+------+-----+---------+-------+
+
+
+### Populating and Modifying Tables
+With the person and favorite_food tables in place, you can
+now begin to explore the four SQL data statements: 
+ [-] insert
+ [-] update 
+ [-] delete 
+ [-] select.
+
+Inserting Data
