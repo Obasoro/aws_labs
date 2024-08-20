@@ -1,3 +1,6 @@
 [submodule "EKS-tutorial/Docker-Zero-to-Hero"]
 	path = EKS-tutorial/Docker-Zero-to-Hero
 	url = https://github.com/iam-veeramalla/Docker-Zero-to-Hero
+[submodule "EKS-tutorial/microservices-demo"]
+	path = EKS-tutorial/microservices-demo
+	url = https://github.com/microservices-demo/microservices-demo.git
