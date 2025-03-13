@@ -30,3 +30,11 @@ Notice the existing IDE, which is named Cloud9 Instance.
 For that IDE, choose Open IDE.
 
 The AWS Cloud9 IDE loads in a new browser tab.
+
+*********
+### Setting up Cluster Using Kubeadm
+*******************
+
+[medium-article-mupped](https://medium.com/@muppedaanvesh/set-up-a-kubernetes-cluster-on-aws-ec2-using-kubeadm-6e0244d8eff4)
+
+[linkedin-article-radhakrishman](https://www.linkedin.com/pulse/install-kubeadm-cluster-amazon-linux-2023-dr-bl-radhakrishnan--57rdc/)
