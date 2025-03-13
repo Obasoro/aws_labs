@@ -38,3 +38,10 @@ The AWS Cloud9 IDE loads in a new browser tab.
 [medium-article-mupped](https://medium.com/@muppedaanvesh/set-up-a-kubernetes-cluster-on-aws-ec2-using-kubeadm-6e0244d8eff4)
 
 [linkedin-article-radhakrishman](https://www.linkedin.com/pulse/install-kubeadm-cluster-amazon-linux-2023-dr-bl-radhakrishnan--57rdc/)
+
+*****
+Debugging
+
+***
+
+[debug](https://discuss.kubernetes.io/t/the-connection-to-the-server-host-6443-was-refused-did-you-specify-the-right-host-or-port/552/26)
