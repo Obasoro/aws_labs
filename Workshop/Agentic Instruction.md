@@ -325,3 +325,30 @@ Before the end of the conversation ask the user if they want you to suggest gift
 ```
 
 <img width="1356" height="479" alt="image" src="https://github.com/user-attachments/assets/bffc7c11-fb97-405e-b1da-bb24173d33bd" />
+
+
+## Multi-Agent Collaboration
+
+In this section, you will create two specialized agents that work together through a supervisor agent to provide a complete shopping experience. This demonstrates the power of multi-agent collaboration in Amazon Bedrock Agents.
+
+The two specialized agents will be:
+
+Product Recommendation Agent - Focuses on getting product details and recommendations
+Cart Management Agent - Handles cart operations like adding items and retrieving cart details
+
+## Create the Product Recommendation Agent
+
+
+## Summary
+
+By leveraging Amazon Bedrock Agents, you've created a conversational chatbot that can assist users in finding the perfect gift. The chatbot intelligently gathers user preferences, queries a backend API to retrieve relevant product details, and presents recommendations to the user. This approach demonstrates the power of Amazon Bedrock Agents in building engaging and context-aware conversational experiences.
+
+In addition to the recommendations for product exploration, you added cart functions to the agent, to add items to cart and get cart details.
+
+Then, you added a call to an Amazon Personalize simulated API to up-sell other products based on other customers purchase behaviors.
+
+In addition to using APIs you also added a knowledge base to the agent to suggest some ideas in relation to the products that was purchased.
+
+Finally, You implemented multi-agent collaboration, creating specialized agents for product recommendations and cart management, coordinated by a supervisor agent to provide a more efficient shopping experience.
+
+You can now use Amazon Bedrock Agents to call APIs, use knowledge bases, and implement multi-agent collaboration for your business use cases, the possibilities are endless, So Happy building.
