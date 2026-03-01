@@ -65,3 +65,52 @@ Agentic AI:
 - Takes initiative to achieve goals
 - Plans multi-step processes
 - Anticipates user needs
+
+
+# Step 2: Set Up Your Python Environment
+
+```
+
+# Create a new directory for our workshop
+mkdir agentic-ai-workshop
+cd agentic-ai-workshop
+
+# Create a Python virtual environment
+python -m venv .venv
+
+# Activate the virtual environment
+source .venv/bin/activate
+
+# You should see (.venv) in your terminal prompt now
+
+```
+
+## Step 3: Install Dependencies
+
+```
+# Create requirements.txt file
+cat > requirements.txt << EOF
+boto3>=1.34.0
+streamlit>=1.28.0
+requests>=2.31.0
+Pillow>=10.0.0
+EOF
+
+# Install all dependencies
+pip install -r requirements.txt
+
+```
+
+## Step 4: Verify Your Setup
+
+```
+# Test Python and boto3
+python -c "import boto3; print('✅ boto3 installed successfully')"
+
+# Test Streamlit
+python -c "import streamlit; print('✅ Streamlit installed successfully')"
+
+# Test AWS credentials (should show your account info)
+aws sts get-caller-identity
+
+```
